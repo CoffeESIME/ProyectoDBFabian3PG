@@ -1,6 +1,6 @@
 USE [master]
 GO
-/****** Objecto:  Base de datos de vacunación******/
+/******Base de datos de vacunación Fabian******/
  create database [VaccinationVFabian]
  GO
 USE VaccinationVFabian
