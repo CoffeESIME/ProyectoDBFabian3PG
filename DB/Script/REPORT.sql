@@ -317,7 +317,7 @@ SELECT DISTINCT(VA.[Name]) AS VACUNA,CA.idState FROM Vaccine VA
 							INNER JOIN Campus CA ON CA.idCampus=CI.idCampus 
 							
 GO
-SELECT ST.[Name], isnull(VW_VC.VACUNA,'No se ha asigando vacuna') AS VACUNA FROM VW_VAC_CAM VW_VC 
+SELECT ST.[Name], isnull(VW_VC.VACUNA,'No se ha asignado vacuna') AS VACUNA FROM VW_VAC_CAM VW_VC 
 							RIGHT JOIN [State] ST ON ST.idState=VW_VC.idState
 
 
